@@ -1,0 +1,24 @@
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\obj\Debug\ABS_v2.BusinessLogic.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Interfaces.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Interfaces.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinesLogic.PresentationModels.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.DataAccess.Entities.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.DataAccess.Entities.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinesLogic.PresentationModels.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\obj\Debug\ABS_v2.BusinessLogic.Interfaces.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\obj\Debug\ABS_v2.BusinessLogic.Interfaces.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Entities.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Entities.pdb
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Interfaces.dll
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Interfaces.pdb
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinesLogic.PresentationModels.dll
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Entities.dll
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.DataAccess.Entities.dll
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Interfaces.Validators.dll
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Entities.pdb
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.DataAccess.Entities.pdb
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinesLogic.PresentationModels.pdb
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\bin\Debug\ABS_v2.BusinessLogic.Interfaces.Validators.pdb
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\obj\Debug\ABS_v2.BusinessLogic.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\obj\Debug\ABS_v2.BusinessLogic.Interfaces.dll
+C:\Users\Neli\Desktop\Web dev bachelor FInal\ABS_v3_FE\ABS_v3_FE\ABS_v2.BusinessLogic.Interfaces\obj\Debug\ABS_v2.BusinessLogic.Interfaces.pdb

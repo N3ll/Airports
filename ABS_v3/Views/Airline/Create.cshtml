@@ -1,0 +1,27 @@
+﻿@model ABS_v3.Models.AirlineViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Add Airline</h2>
+@using (Html.BeginForm("Create", "Airline"))
+{
+    <p class="alert alert-info">All fields are <strong>required</strong>.</p>
+   if (ViewBag.ErrorMessages != null)
+    {
+        foreach (var item in ViewBag.ErrorMessages)
+        {
+            <p  class="alert alert-danger">@item</p>
+        }
+        
+    }
+
+   @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", autofocus = "autofocus" })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+

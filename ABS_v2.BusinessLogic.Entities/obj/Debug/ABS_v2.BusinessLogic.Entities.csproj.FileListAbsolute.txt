@@ -1,0 +1,7 @@
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Entities\bin\Debug\ABS_v2.BusinessLogic.Entities.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Entities\bin\Debug\ABS_v2.BusinessLogic.Entities.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Entities\obj\Debug\ABS_v2.BusinessLogic.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Entities\obj\Debug\ABS_v2.BusinessLogic.Entities.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Entities\obj\Debug\ABS_v2.BusinessLogic.Entities.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Entities\bin\Debug\ABS_v2.BusinessLogic.Interfaces.Validators.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinessLogic.Entities\bin\Debug\ABS_v2.BusinessLogic.Interfaces.Validators.pdb

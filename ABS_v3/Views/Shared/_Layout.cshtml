@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    @if (ViewBag.Message != null)
+    {
+        <div>@ViewBag.Message</div>
+    }
+    <div class="navbar  navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("ABS", "DisplayAirportsFlights", "Home", new { area = "" }, new { @class = "navbar-brand brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Display flights", "DisplayAirportsFlights", "Home")</li>
+                    <li>@Html.ActionLink("Add filter", "CreateAirportFilter", "Airport")</li>
+                    <li>@Html.ActionLink("Add airport", "Create", "Airport")</li>
+                    <li>@Html.ActionLink("Add airline", "Create", "Airline")</li>
+                    <li>@Html.ActionLink("Add class", "CreateSectionClass", "Flight")</li>
+                    <li>@Html.ActionLink("Add flight", "CreateFlight", "Flight")</li>
+                    <li>@Html.ActionLink("Add section", "CreateFlightSection", "Flight")</li>
+                    <li>@Html.ActionLink("Find flights", "FindAvailableFlights", "Home")</li>        
+                    <li>@Html.ActionLink("Book seat", "BookSeat", "Flight")</li>
+                    <li>@Html.ActionLink("Details", "Index", "Home")</li>
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid body-content">
+        @RenderBody()
+    
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/ammap")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

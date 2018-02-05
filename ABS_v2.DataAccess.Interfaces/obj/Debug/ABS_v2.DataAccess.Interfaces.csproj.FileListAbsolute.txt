@@ -1,0 +1,12 @@
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\ABS_v2.DataAccess.Interfaces.dll.config
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\ABS_v2.DataAccess.Interfaces.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\ABS_v2.DataAccess.Interfaces.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\ABS_v2.DataAccess.Entities.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\ABS_v2.DataAccess.Entities.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\obj\Debug\ABS_v2.DataAccess.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\obj\Debug\ABS_v2.DataAccess.Interfaces.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.DataAccess.Interfaces\obj\Debug\ABS_v2.DataAccess.Interfaces.pdb

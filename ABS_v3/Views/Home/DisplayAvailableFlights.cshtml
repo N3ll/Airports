@@ -1,0 +1,22 @@
+﻿@model ICollection<ABS_v3.Models.FlightViewModel>
+@{
+    ViewBag.Title = "DisplayAvailableFlights";
+}
+
+<h2>Available Flights:</h2>
+<ul>
+
+    @foreach (var flight in Model)
+    {
+        <li>
+            <span>Departing from @flight.OriginAirportName</span>
+            <span> Flight @flight.FlightName</span>
+            <span> to @flight.DestinationAirportName</span>
+            <span> at @flight.DepartureDate </span>
+            @foreach (var filter in flight.Filters)
+            {
+                <span> @filter </span>
+            }
+        </li>
+    }
+</ul>

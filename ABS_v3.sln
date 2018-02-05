@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v3", "ABS_v3\ABS_v3.csproj", "{FBA4C8A8-BFEE-48E2-9CD1-602C42EFB941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v3.Tests", "ABS_v3.Tests\ABS_v3.Tests.csproj", "{6E95E3A5-1C48-4622-A9A1-5EC42A753A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.DataAccess.Configuration", "ABS_v2.DataAccess.Configuration\ABS_v2.DataAccess.Configuration.csproj", "{89C72E45-59A5-470F-B83E-75595624ED0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.DataAccess.Interfaces", "ABS_v2.DataAccess.Interfaces\ABS_v2.DataAccess.Interfaces.csproj", "{0C6804B1-C752-42DF-A136-97AAA04ED147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.DataAccess.Context", "ABS_v2.DataAccess.Context\ABS_v2.DataAccess.Context.csproj", "{B1D8915A-F4C4-48AE-9CE7-FC3FB0884477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.DataAccess.Entities", "ABS_v2.DataAccess.Entities\ABS_v2.DataAccess.Entities.csproj", "{B22DD00A-8A52-49AC-AD19-0A6EA0841798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.BusinessLogic", "ABS_v2.BusinessLogic\ABS_v2.BusinessLogic.csproj", "{411B6150-985C-4B8A-BC76-D001B5062BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.BusinessLogic.Entities", "ABS_v2.BusinessLogic.Entities\ABS_v2.BusinessLogic.Entities.csproj", "{E87D94C0-DA1C-4B06-BEB4-BBA68AC121E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.BusinessLogic.Interfaces", "ABS_v2.BusinessLogic.Interfaces\ABS_v2.BusinessLogic.Interfaces.csproj", "{8D1876E2-B606-44FE-9EA0-157F0F99D316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.BusinessLogic.PresentationModels", "ABS_v2.BusinesLogic.PresentationModels\ABS_v2.BusinessLogic.PresentationModels.csproj", "{382A6723-D51E-4A9D-86D0-D386A9FCAEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABS_v2.BusinessLogic.Interfaces.Validators", "ABS_v2.BusinessLogic.Interfaces.Validators\ABS_v2.BusinessLogic.Interfaces.Validators.csproj", "{BD066D6A-5C8E-4E9A-AD00-6B9AA330C646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBA4C8A8-BFEE-48E2-9CD1-602C42EFB941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA4C8A8-BFEE-48E2-9CD1-602C42EFB941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA4C8A8-BFEE-48E2-9CD1-602C42EFB941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA4C8A8-BFEE-48E2-9CD1-602C42EFB941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E95E3A5-1C48-4622-A9A1-5EC42A753A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E95E3A5-1C48-4622-A9A1-5EC42A753A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E95E3A5-1C48-4622-A9A1-5EC42A753A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E95E3A5-1C48-4622-A9A1-5EC42A753A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C72E45-59A5-470F-B83E-75595624ED0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C72E45-59A5-470F-B83E-75595624ED0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C72E45-59A5-470F-B83E-75595624ED0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C72E45-59A5-470F-B83E-75595624ED0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6804B1-C752-42DF-A136-97AAA04ED147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6804B1-C752-42DF-A136-97AAA04ED147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6804B1-C752-42DF-A136-97AAA04ED147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6804B1-C752-42DF-A136-97AAA04ED147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D8915A-F4C4-48AE-9CE7-FC3FB0884477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D8915A-F4C4-48AE-9CE7-FC3FB0884477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D8915A-F4C4-48AE-9CE7-FC3FB0884477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D8915A-F4C4-48AE-9CE7-FC3FB0884477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22DD00A-8A52-49AC-AD19-0A6EA0841798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22DD00A-8A52-49AC-AD19-0A6EA0841798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22DD00A-8A52-49AC-AD19-0A6EA0841798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22DD00A-8A52-49AC-AD19-0A6EA0841798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411B6150-985C-4B8A-BC76-D001B5062BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411B6150-985C-4B8A-BC76-D001B5062BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411B6150-985C-4B8A-BC76-D001B5062BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411B6150-985C-4B8A-BC76-D001B5062BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87D94C0-DA1C-4B06-BEB4-BBA68AC121E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87D94C0-DA1C-4B06-BEB4-BBA68AC121E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87D94C0-DA1C-4B06-BEB4-BBA68AC121E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87D94C0-DA1C-4B06-BEB4-BBA68AC121E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1876E2-B606-44FE-9EA0-157F0F99D316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1876E2-B606-44FE-9EA0-157F0F99D316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1876E2-B606-44FE-9EA0-157F0F99D316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1876E2-B606-44FE-9EA0-157F0F99D316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382A6723-D51E-4A9D-86D0-D386A9FCAEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382A6723-D51E-4A9D-86D0-D386A9FCAEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382A6723-D51E-4A9D-86D0-D386A9FCAEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382A6723-D51E-4A9D-86D0-D386A9FCAEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD066D6A-5C8E-4E9A-AD00-6B9AA330C646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD066D6A-5C8E-4E9A-AD00-6B9AA330C646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD066D6A-5C8E-4E9A-AD00-6B9AA330C646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD066D6A-5C8E-4E9A-AD00-6B9AA330C646}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://n3ll.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ABS_v2.BusinesLogic.PresentationModels\\ABS_v2.BusinessLogic.PresentationModels.csproj
+		SccProjectName1 = ABS_v2.BusinesLogic.PresentationModels
+		SccLocalPath1 = ABS_v2.BusinesLogic.PresentationModels
+		SccProjectUniqueName2 = ABS_v2.BusinessLogic.Entities\\ABS_v2.BusinessLogic.Entities.csproj
+		SccProjectName2 = ABS_v2.BusinessLogic.Entities
+		SccLocalPath2 = ABS_v2.BusinessLogic.Entities
+		SccProjectUniqueName3 = ABS_v2.BusinessLogic.Interfaces\\ABS_v2.BusinessLogic.Interfaces.csproj
+		SccProjectName3 = ABS_v2.BusinessLogic.Interfaces
+		SccLocalPath3 = ABS_v2.BusinessLogic.Interfaces
+		SccProjectUniqueName4 = ABS_v2.BusinessLogic\\ABS_v2.BusinessLogic.csproj
+		SccProjectName4 = ABS_v2.BusinessLogic
+		SccLocalPath4 = ABS_v2.BusinessLogic
+		SccProjectUniqueName5 = ABS_v2.DataAccess.Configuration\\ABS_v2.DataAccess.Configuration.csproj
+		SccProjectName5 = ABS_v2.DataAccess.Configuration
+		SccLocalPath5 = ABS_v2.DataAccess.Configuration
+		SccProjectUniqueName6 = ABS_v2.DataAccess.Context\\ABS_v2.DataAccess.Context.csproj
+		SccProjectName6 = ABS_v2.DataAccess.Context
+		SccLocalPath6 = ABS_v2.DataAccess.Context
+		SccProjectUniqueName7 = ABS_v2.DataAccess.Entities\\ABS_v2.DataAccess.Entities.csproj
+		SccProjectName7 = ABS_v2.DataAccess.Entities
+		SccLocalPath7 = ABS_v2.DataAccess.Entities
+		SccProjectUniqueName8 = ABS_v2.DataAccess.Interfaces\\ABS_v2.DataAccess.Interfaces.csproj
+		SccProjectName8 = ABS_v2.DataAccess.Interfaces
+		SccLocalPath8 = ABS_v2.DataAccess.Interfaces
+		SccProjectUniqueName9 = ABS_v3.Tests\\ABS_v3.Tests.csproj
+		SccProjectName9 = ABS_v3.Tests
+		SccLocalPath9 = ABS_v3.Tests
+		SccProjectUniqueName10 = ABS_v3\\ABS_v3.csproj
+		SccProjectName10 = ABS_v3
+		SccLocalPath10 = ABS_v3
+		SccProjectUniqueName11 = ABS_v2.BusinessLogic.Interfaces.Validators\\ABS_v2.BusinessLogic.Interfaces.Validators.csproj
+		SccProjectName11 = ABS_v2.BusinessLogic.Interfaces.Validators
+		SccLocalPath11 = ABS_v2.BusinessLogic.Interfaces.Validators
+	EndGlobalSection
+EndGlobal

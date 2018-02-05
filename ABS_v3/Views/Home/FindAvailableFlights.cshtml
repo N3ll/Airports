@@ -1,0 +1,52 @@
+﻿@model ABS_v3.Models.AvailableFlightViewModel
+@{
+    ViewBag.Title = "FindAvailableFlights";
+}
+
+<h2>FInd Available Flights</h2>
+
+@using (Html.BeginForm("FindAvailableFlights", "Home"))
+{
+    <p class="alert alert-info">All fields are <strong>required</strong>.</p>
+    if (ViewBag.ErrorMessages != null)
+    {
+        foreach (var item in ViewBag.ErrorMessages)
+        {
+            <p class="alert alert-danger">@item</p>
+        }
+
+    }
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.OriginAirportName)
+        @Html.TextBoxFor(m => m.OriginAirportName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.OriginAirportName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.DestinationAirportName)
+        @Html.TextBoxFor(m => m.DestinationAirportName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.DestinationAirportName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Day)
+        @Html.TextBoxFor(m => m.Day, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Day)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Month)
+        @Html.TextBoxFor(m => m.Month, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Month)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Year)
+        @Html.TextBoxFor(m => m.Year, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Year)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+}

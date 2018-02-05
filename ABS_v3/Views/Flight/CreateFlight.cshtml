@@ -1,0 +1,70 @@
+﻿@model ABS_v3.Models.FlightViewModel
+@{
+    ViewBag.Title = "CreateFlight";
+}
+
+<h2>Add Flight</h2>
+@using (Html.BeginForm("CreateFlight", "Flight"))
+{
+    <p class="alert alert-info">All fields are <strong>required</strong>.</p>
+    if (ViewBag.ErrorMessages != null)
+    {
+        foreach (var item in ViewBag.ErrorMessages)
+        {
+            <p class="alert alert-danger">@item</p>
+        }
+
+    }
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(m => m.FlightName)
+        @Html.TextBoxFor(m => m.FlightName, new { @class = "form-control", autofocus = "autofocus" })
+        @Html.ValidationMessageFor(m => m.FlightName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.OriginAirportName)
+        @Html.TextBoxFor(m => m.OriginAirportName, new { @class = "form-control"})
+        @Html.ValidationMessageFor(m => m.OriginAirportName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.DestinationAirportName)
+        @Html.TextBoxFor(m => m.DestinationAirportName, new { @class = "form-control"})
+        @Html.ValidationMessageFor(m => m.DestinationAirportName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.AirlineName)
+        @Html.TextBoxFor(m => m.AirlineName, new { @class = "form-control"})
+        @Html.ValidationMessageFor(m => m.AirlineName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Day)
+        @Html.TextBoxFor(m => m.Day, new { @class = "form-control"})
+        @Html.ValidationMessageFor(m => m.Day)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Month)
+        @Html.TextBoxFor(m => m.Month, new { @class = "form-control"})
+        @Html.ValidationMessageFor(m => m.Month)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Year)
+        @Html.TextBoxFor(m => m.Year, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Year)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Price)
+        @Html.EditorFor(m => m.Price, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Price)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+
+

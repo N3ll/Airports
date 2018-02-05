@@ -1,0 +1,27 @@
+﻿@model ABS_v3.Models.AirportsFlightsViewModel
+@{
+    ViewBag.Title = "DisplayFlights";
+}
+
+<div class="row content" >
+    <div class="col-lg-4 left-container">
+        <h1>Taking off from <span id="origin"></span> to</h1>
+            <button type="button" id="sun" class="circle pull-left"></button>
+            <button type="button" id="snow" class="circle pull-left"></button>
+            <button type="button" id="city" class="circle pull-left"></button>
+            <button type="button" id="all" class="circle pull-left"></button>
+        <div  id="calendar"><img src="../Content/calendar.png"/></div> 
+        <div id="slider"><img src="../Content/slider.png" /></div>
+
+
+    </div>
+    <div id="mapdiv" class="col-lg-8 right-container">
+
+    </div>
+   
+</div>
+
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/ammap")
+@Scripts.Render("~/Scripts/script.js")

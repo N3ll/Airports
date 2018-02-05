@@ -1,0 +1,43 @@
+﻿@model ABS_v3.Models.FlightSectionViewModel
+@{
+    ViewBag.Title = "CreateFlightSection";
+}
+
+<h2>Add Flight Section</h2>
+@using (Html.BeginForm("CreateFlightSection", "Flight"))
+{
+    <p class="alert alert-info">All fields are <strong>required</strong>.</p>
+    if (ViewBag.ErrorMessages != null)
+    {
+        foreach (var item in ViewBag.ErrorMessages)
+        {
+            <p class="alert alert-danger">@item</p>
+        }
+
+    }
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(m => m.FlightName)
+        @Html.TextBoxFor(m => m.FlightName, new { @class = "form-control", autofocus = "autofocus" })
+        @Html.ValidationMessageFor(m => m.FlightName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.SectionCLass)
+        @Html.TextBoxFor(m => m.SectionCLass, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.SectionCLass)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Rows)
+        @Html.TextBoxFor(m => m.Rows, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Rows)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Cols)
+        @Html.TextBoxFor(m => m.Cols, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Cols)
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+}

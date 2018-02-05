@@ -1,0 +1,27 @@
+﻿@model ICollection<ABS_v3.Models.SysDetailsViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>System Information:</h1>
+<ul>
+    @foreach (var details in Model)
+    {
+        <li>
+            <span>Departing from @details.OriginAirportName</span>
+            <span> flight @details.FlightName</span>
+            <span> to @details.DestinationAirportName</span>
+            <span>with @details.SeatClass class </span>
+            <span>seat @details.Row@details.Col is</span>
+
+            @if (details.Status)
+            {
+                <span> booked </span>
+            }
+            else
+            {
+                <span> available </span>
+            }
+        </li>
+    }
+</ul>

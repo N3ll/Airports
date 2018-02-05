@@ -1,0 +1,26 @@
+﻿@model ABS_v3.Models.SectionCLassViewModel
+@{
+    ViewBag.Title = "AddSeatCLass";
+}
+
+<h2>Add Seat CLass</h2>
+@using (Html.BeginForm("CreateSectionClass", "Flight"))
+{
+    <p class="alert alert-info">All fields are <strong>required</strong>.</p>
+    if (ViewBag.ErrorMessages != null)
+    {
+        foreach (var item in ViewBag.ErrorMessages)
+        {
+            <p class="alert alert-danger">@item</p>
+        }
+
+    }
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", autofocus = "autofocus" })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+

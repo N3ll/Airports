@@ -1,0 +1,43 @@
+﻿@model ABS_v3.Models.AirportViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Add Airport</h2>
+@using (Html.BeginForm("Create", "Airport"))
+{
+    <p class="alert alert-info">All fields are <strong>required</strong>.</p>
+    if (ViewBag.ErrorMessages != null)
+    {
+        foreach (var item in ViewBag.ErrorMessages)
+        {
+            <p class="alert alert-danger">@item</p>
+        }
+
+    } 
+
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", autofocus = "autofocus" })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Latitude)
+        @Html.EditorFor(m => m.Latitude, new { @class = "form-control"})
+        @Html.ValidationMessageFor(m => m.Latitude)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Longitude)
+        @Html.EditorFor(m => m.Longitude, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Longitude)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Filters)
+        @Html.ListBoxFor(m => m.Filters, Model.FiltersDB)
+        @Html.ValidationMessageFor(m => m.Filters)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+}

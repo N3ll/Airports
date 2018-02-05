@@ -1,0 +1,7 @@
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinesLogic.PresentationModels\obj\Debug\ABS_v2.BusinessLogic.PresentationModels.csprojResolveAssemblyReference.cache
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinesLogic.PresentationModels\bin\Debug\ABS_v2.BusinesLogic.PresentationModels.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinesLogic.PresentationModels\bin\Debug\ABS_v2.BusinesLogic.PresentationModels.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinesLogic.PresentationModels\bin\Debug\ABS_v2.DataAccess.Entities.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinesLogic.PresentationModels\bin\Debug\ABS_v2.DataAccess.Entities.pdb
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinesLogic.PresentationModels\obj\Debug\ABS_v2.BusinesLogic.PresentationModels.dll
+C:\Users\Neli\Documents\Visual Studio 2015\Projects\ABS_v3_FE\ABS_v2.BusinesLogic.PresentationModels\obj\Debug\ABS_v2.BusinesLogic.PresentationModels.pdb
